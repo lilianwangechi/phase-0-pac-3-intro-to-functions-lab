@@ -3,6 +3,7 @@ global.expect = require('expect');
 const babel = require('babel-core');
 const jsdom = require('jsdom');
 const path = require('path');
+//require expect,babel-core,jsdom,path are libraries that will enable us to run the tests
 
 before(function(done) {
   const babelResult = babel.transformFileSync(

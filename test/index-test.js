@@ -1,4 +1,4 @@
-
+//describe is a function provided by our test runner which is Mocha in this case-it is basically a container for our tests
 describe('shout(string)', function() {
   it('receives one argument and returns it in all caps', function() {
     expect(shout('hello')).toEqual('HELLO');
